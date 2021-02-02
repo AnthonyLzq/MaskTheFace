@@ -5,12 +5,17 @@ import face_recognition as fr
 from functions.draw import draw_landmarks
 
 
-path = Path(__file__).parent
+def main():
+    path = Path(__file__).parent
 
-image = fr.load_image_file(f'{path}/../images/groups/team-of-people-1.jpg')
+    image = fr.load_image_file(f'{path}/../images/groups/team-of-people-3.jpg')
 
-draw_landmarks(image)
-face_locations = fr.face_locations(image)
+    draw_landmarks(image)
+    face_locations = fr.face_locations(image)
+
+
+if __name__ == '__main__':
+    main()
 
 # Array of coords of each face
 # print(face_locations)

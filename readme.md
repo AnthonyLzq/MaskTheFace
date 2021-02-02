@@ -22,11 +22,6 @@ Clone this project and run the following commands in your terminal:
     ```
     Be aware of what is your `pip` version.
 
-3. To give execute permissions to the `main.sh` file:
-    ```console
-    $ chmod u+x main.sh
-    ```
-
 ## Usage
 
 In your terminal, run the following commands:
@@ -35,7 +30,7 @@ In your terminal, run the following commands:
 $ python src/index.py
 ```
 
-It will open your default image viewer with one of the three pictures with a white line in the nose and the edge of the face.
+It will open your default image viewer with one of the three pictures in the `images/groups` folder with a container outlined for the mask on each face.
 
 One you finish testing please run the following command to deactivate the virtual environment.
 

@@ -1,5 +1,15 @@
 # Mask the face
 
+## Version 0.2.0
+
+- Implemented:
+  - Code refactoring.
+  - Project requirements.
+  - Image container for the mask.
+- Updated:
+  - Documentation.
+- TODO:
+  - To implement a function to fit the mask image into its container.
 ## Version 0.1.0
 
 - Project initialization.
