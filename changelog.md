@@ -1,5 +1,13 @@
 # Mask the face
 
+## Version 0.4.0
+
+- Updated:
+  - Documentation.
+- TODO:
+  - Adjust the fitting function to increase the precision.
+  - Implement a function to rotate the mask.
+
 ## Version 0.3.0
 
 - Implemented:

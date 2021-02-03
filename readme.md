@@ -1,5 +1,9 @@
 # Mask the Face
 
+The present project has the aim to mask people from a photo of people who aren't wearing a mask, currently the algorithm follows these steps: 
+
+![process](./process.png)
+
 ## Prerequisites
 
 This project is currently using `Python 3.9.1` and `pip 21.0`.
