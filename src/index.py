@@ -10,12 +10,13 @@ def main():
 
     image = fr.load_image_file(f'{path}/../images/groups/team-of-people-3.jpg')
 
-    draw_landmarks(image)
-    face_locations = fr.face_locations(image)
+    draw_landmarks(image, 'N95.png')
 
 
 if __name__ == '__main__':
     main()
+
+# face_locations = fr.face_locations(image)
 
 # Array of coords of each face
 # print(face_locations)

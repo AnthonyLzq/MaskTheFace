@@ -30,7 +30,7 @@ In your terminal, run the following commands:
 $ python src/index.py
 ```
 
-It will open your default image viewer with one of the three pictures in the `images/groups` folder with a container outlined for the mask on each face.
+It will open your default image viewer with one of the three pictures in the `images/groups` folder. This picture will contain many faces each of which well have a face mask, which was set by the algorithm.
 
 One you finish testing please run the following command to deactivate the virtual environment.
 
