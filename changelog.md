@@ -1,5 +1,13 @@
 # Mask the face
 
+## Version 0.5.0
+
+- Implemented:
+  - A function to adjust the fitting function to increase the precision.
+  - A function to rotate the mask.
+- TODO:
+  - Implement a way to pass arguments to the script to change the photo to interact with.
+
 ## Version 0.4.0
 
 - Updated:
