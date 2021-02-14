@@ -1,5 +1,12 @@
 # Mask the face
 
+## Version 0.6.0
+
+- Updated:
+  - Process image.
+- TODO:
+  - Implement a way to pass arguments to the script to change the photo to interact with.
+
 ## Version 0.5.0
 
 - Implemented:
